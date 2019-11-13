@@ -1,4 +1,8 @@
-	 area     fibonacci, CODE, READONLY
+;Below program implements exponential series and takes input like the value of x which is stored in register S2
+;Also it takes input the no. of iterations/no of terms in series stored in the Register R0
+;the Final value is stored in register S0.
+
+     area     exponential, CODE, READONLY
      EXPORT __main
      ENTRY 
 __main  FUNCTION
